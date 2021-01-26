@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,17 +29,19 @@ namespace SWAdmin.TableStruct
 
         public class tb_Cinema_String : BaseStruct
         {
-            public UInt16 Unknown1;
-            public String Unknown2 = "";
-            public String Unknown3 = "";
-            public String Unknown4 = "";
-            public String Unknown5 = "";
-            public String Unknown6 = "";
-            public String Unknown7 = "";
-            public String Unknown8 = "";
-            public String Unknown9 = "";
-            public String Unknown10 = "";
-            public String Unknown11 = "";
+            public UInt16 Unkown1;
+            public String Unkown2 = "";
+            public String Unkown3 = "";
+            public String Unkown4 = "";
+            public String Unkown5 = "";
+            public String Unkown6 = "";
+            public String Unkown7 = "";
+            public String Unkown8 = "";
+            public String Unkown9 = "";
+            public String Unkown10 = "";
+            public String Unkown11 = "";
+            public String Unkown12 = "";
+
 
             public override void beforeRead()
             {

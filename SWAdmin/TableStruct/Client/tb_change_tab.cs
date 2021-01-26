@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,6 +32,7 @@ namespace SWAdmin.TableStruct
             public UInt16 Unkown1;
             public UInt16 Unkown2;
             public UInt16 Unkown3;
+
 
             public override void beforeRead()
             {

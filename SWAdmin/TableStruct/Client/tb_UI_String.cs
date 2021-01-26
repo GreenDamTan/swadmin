@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,9 +29,10 @@ namespace SWAdmin.TableStruct
 
         public class tb_UI_String : BaseStruct
         {
-            public UInt32 Unknown1;
-            public Byte Unknown2;
-            public String Unknown3 = "";
+            public UInt32 Unkown1;
+            public Byte Unkown2;
+            public String Unkown3 = "";
+
 
             public override void beforeRead()
             {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,10 +29,11 @@ namespace SWAdmin.TableStruct
 
         public class tb_Booster_Script : BaseStruct
         {
-            public UInt16 Unknown1;
-            public String Unknown2 = "";
-            public String Unknown3 = "";
-            public String Unknown4 = "";
+            public UInt16 Unkown1;
+            public String Unkown2 = "";
+            public String Unkown3 = "";
+            public String Unkown4 = "";
+
 
             public override void beforeRead()
             {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,9 +29,11 @@ namespace SWAdmin.TableStruct
 
         public class tb_Common : BaseStruct
         {
-            public UInt32 Define_ID;
-            public String Key = "";
-            public Single Value;
+            public UInt32 Unkown1;
+            public String Unkown2 = "";
+            public Single Unkown3;
+
+
             public override void beforeRead()
             {
             }

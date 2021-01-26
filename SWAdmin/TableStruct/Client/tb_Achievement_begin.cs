@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,9 +29,10 @@ namespace SWAdmin.TableStruct
 
         public class tb_Achievement_begin : BaseStruct
         {
-            public UInt16 s1;
-            public UInt32 i1;
-            public Byte b1;
+            public UInt16 Unkown1;
+            public UInt32 Unkown2;
+            public Byte Unkown3;
+
 
             public override void beforeRead()
             {

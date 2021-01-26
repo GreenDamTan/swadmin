@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,15 +29,16 @@ namespace SWAdmin.TableStruct
 
         public class tb_Aura : BaseStruct
         {
-            public UInt16 Unknown1;
-            public Byte Unknown2;
-            public UInt32 Unknown3;
-            public Byte Unknown4;
-            public UInt32 Unknown5;
-            public UInt32 Unknown6;
-            public UInt16 Unknown7;
-            public UInt16 Unknown8;
-            public UInt16 Unknown9;
+            public UInt16 Unkown1;
+            public Byte Unkown2;
+            public UInt32 Unkown3;
+            public Byte Unkown4;
+            public UInt32 Unkown5;
+            public UInt32 Unkown6;
+            public UInt16 Unkown7;
+            public UInt16 Unkown8;
+            public UInt16 Unkown9;
+
 
             public override void beforeRead()
             {

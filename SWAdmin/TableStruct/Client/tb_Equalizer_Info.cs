@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,6 +35,7 @@ namespace SWAdmin.TableStruct
             public UInt32 Unkown4;
             public String Unkown5 = "";
             public String Unkown6 = "";
+
 
             public override void beforeRead()
             {

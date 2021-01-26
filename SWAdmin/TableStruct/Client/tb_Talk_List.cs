@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,32 +29,33 @@ namespace SWAdmin.TableStruct
 
         public class tb_Talk_List : BaseStruct
         {
-            public UInt16 Unknown1;
-            public UInt16 Unknown2;
-            public UInt16 Unknown3;
-            public UInt16 Unknown4;
-            public UInt16 Unknown5;
-            public UInt16 Unknown6;
-            public UInt16 Unknown7;
-            public UInt16 Unknown8;
-            public UInt16 Unknown9;
-            public UInt16 Unknown10;
-            public UInt16 Unknown11;
-            public UInt16 Unknown12;
-            public UInt16 Unknown13;
-            public UInt16 Unknown14;
-            public UInt16 Unknown15;
-            public UInt16 Unknown16;
-            public UInt16 Unknown17;
-            public UInt16 Unknown18;
-            public UInt16 Unknown19;
-            public UInt16 Unknown20;
-            public UInt16 Unknown21;
-            public UInt16 Unknown22;
-            public UInt16 Unknown23;
-            public UInt16 Unknown24;
-            public UInt16 Unknown25;
-            public UInt16 Unknown26;
+            public UInt16 Unkown1;
+            public UInt16 Unkown2;
+            public UInt16 Unkown3;
+            public UInt16 Unkown4;
+            public UInt16 Unkown5;
+            public UInt16 Unkown6;
+            public UInt16 Unkown7;
+            public UInt16 Unkown8;
+            public UInt16 Unkown9;
+            public UInt16 Unkown10;
+            public UInt16 Unkown11;
+            public UInt16 Unkown12;
+            public UInt16 Unkown13;
+            public UInt16 Unkown14;
+            public UInt16 Unkown15;
+            public UInt16 Unkown16;
+            public UInt16 Unkown17;
+            public UInt16 Unkown18;
+            public UInt16 Unkown19;
+            public UInt16 Unkown20;
+            public UInt16 Unkown21;
+            public UInt16 Unkown22;
+            public UInt16 Unkown23;
+            public UInt16 Unkown24;
+            public UInt16 Unkown25;
+            public UInt16 Unkown26;
+
 
             public override void beforeRead()
             {
