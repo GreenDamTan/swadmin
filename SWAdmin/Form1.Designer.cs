@@ -56,16 +56,14 @@
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.lbRes = new DevExpress.XtraEditors.ListBoxControl();
             this.bgWorker = new System.ComponentModel.BackgroundWorker();
-            this.splashScreenManager = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::SWAdmin.LoadingScreen), false, true);
+            this.splashScreenManager = new DevExpress.XtraSplashScreen.SplashScreenManager();
             this.xtraSaveFileDialog = new DevExpress.XtraEditors.XtraSaveFileDialog(this.components);
             this.bar1 = new DevExpress.XtraBars.Bar();
             this.xtraOpenFileDialog = new DevExpress.XtraEditors.XtraOpenFileDialog(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tabFormControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabFormDefaultManager1)).BeginInit();
-            this.tabFormContentContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtClientRes.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtServerRes.Properties)).BeginInit();
-            this.tabFormContentContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbRes)).BeginInit();
@@ -78,15 +76,15 @@
             this.barButtonItem1});
             this.tabFormControl1.Location = new System.Drawing.Point(0, 0);
             this.tabFormControl1.Manager = this.tabFormDefaultManager1;
+            this.tabFormControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabFormControl1.Name = "tabFormControl1";
             this.tabFormControl1.Pages.Add(this.tabFormPage1);
             this.tabFormControl1.Pages.Add(this.tabFormPage2);
             this.tabFormControl1.SelectedPage = this.tabFormPage2;
             this.tabFormControl1.ShowAddPageButton = false;
-            this.tabFormControl1.Size = new System.Drawing.Size(835, 71);
+            this.tabFormControl1.Size = new System.Drawing.Size(1113, 90);
             this.tabFormControl1.TabForm = this;
             this.tabFormControl1.TabIndex = 0;
-            this.tabFormControl1.TabRightItemLinks.Add(this.barbtnSave);
             this.tabFormControl1.TabStop = false;
             this.tabFormControl1.OuterFormCreating += new DevExpress.XtraBars.OuterFormCreatingEventHandler(this.OnOuterFormCreating);
             // 
@@ -121,33 +119,37 @@
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.barDockControlTop.Location = new System.Drawing.Point(0, 71);
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 90);
             this.barDockControlTop.Manager = null;
-            this.barDockControlTop.Size = new System.Drawing.Size(835, 0);
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlTop.Size = new System.Drawing.Size(1113, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 513);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 710);
             this.barDockControlBottom.Manager = null;
-            this.barDockControlBottom.Size = new System.Drawing.Size(835, 0);
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1113, 0);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 71);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 90);
             this.barDockControlLeft.Manager = null;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 442);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 620);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(835, 71);
+            this.barDockControlRight.Location = new System.Drawing.Point(1113, 90);
             this.barDockControlRight.Manager = null;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 442);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 620);
             // 
             // tabFormPage1
             // 
@@ -192,7 +194,7 @@
             // 
             this.txtClientRes.Location = new System.Drawing.Point(108, 47);
             this.txtClientRes.Name = "txtClientRes";
-            this.txtClientRes.Size = new System.Drawing.Size(205, 20);
+            this.txtClientRes.Size = new System.Drawing.Size(205, 24);
             this.txtClientRes.TabIndex = 1;
             // 
             // txtServerRes
@@ -200,14 +202,14 @@
             this.txtServerRes.Location = new System.Drawing.Point(108, 17);
             this.txtServerRes.MenuManager = this.tabFormDefaultManager1;
             this.txtServerRes.Name = "txtServerRes";
-            this.txtServerRes.Size = new System.Drawing.Size(205, 20);
+            this.txtServerRes.Size = new System.Drawing.Size(205, 24);
             this.txtServerRes.TabIndex = 1;
             // 
             // labelControl2
             // 
             this.labelControl2.Location = new System.Drawing.Point(12, 50);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(85, 13);
+            this.labelControl2.Size = new System.Drawing.Size(112, 18);
             this.labelControl2.TabIndex = 0;
             this.labelControl2.Text = "Client res location";
             // 
@@ -215,7 +217,7 @@
             // 
             this.labelControl1.Location = new System.Drawing.Point(12, 20);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(90, 13);
+            this.labelControl1.Size = new System.Drawing.Size(120, 18);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Server res location";
             // 
@@ -232,21 +234,27 @@
             this.tabFormContentContainer2.Controls.Add(this.gridControl1);
             this.tabFormContentContainer2.Controls.Add(this.lbRes);
             this.tabFormContentContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabFormContentContainer2.Location = new System.Drawing.Point(0, 71);
+            this.tabFormContentContainer2.Location = new System.Drawing.Point(0, 98);
+            this.tabFormContentContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabFormContentContainer2.Name = "tabFormContentContainer2";
-            this.tabFormContentContainer2.Size = new System.Drawing.Size(835, 442);
+            this.tabFormContentContainer2.Size = new System.Drawing.Size(1113, 612);
             this.tabFormContentContainer2.TabIndex = 4;
             this.tabFormContentContainer2.Visible = false;
             // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            // 
+            // 
+            // 
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl1.EmbeddedNavigator.ButtonClick += new DevExpress.XtraEditors.NavigatorButtonClickEventHandler(this.gridControl1_EmbeddedNavigator_ButtonClick);
-            this.gridControl1.Location = new System.Drawing.Point(273, 0);
+            this.gridControl1.Location = new System.Drawing.Point(364, 0);
             this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl1.MenuManager = this.tabFormDefaultManager1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(562, 442);
+            this.gridControl1.Size = new System.Drawing.Size(749, 612);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -254,6 +262,8 @@
             // 
             // gridView1
             // 
+            this.gridView1.DetailHeight = 485;
+            this.gridView1.FixedLineWidth = 3;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
@@ -272,8 +282,9 @@
             // 
             this.lbRes.Dock = System.Windows.Forms.DockStyle.Left;
             this.lbRes.Location = new System.Drawing.Point(0, 0);
+            this.lbRes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbRes.Name = "lbRes";
-            this.lbRes.Size = new System.Drawing.Size(273, 442);
+            this.lbRes.Size = new System.Drawing.Size(364, 612);
             this.lbRes.TabIndex = 0;
             this.lbRes.SelectedIndexChanged += new System.EventHandler(this.lbRes_SelectedIndexChanged);
             // 
@@ -282,10 +293,6 @@
             this.bgWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgWorker_DoWork);
             this.bgWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bgWorker_ProgressChanged);
             this.bgWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgWorker_RunWorkerCompleted);
-            // 
-            // splashScreenManager
-            // 
-            this.splashScreenManager.ClosingDelay = 500;
             // 
             // xtraSaveFileDialog
             // 
@@ -304,27 +311,25 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(835, 513);
+            this.ClientSize = new System.Drawing.Size(1113, 710);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Controls.Add(this.tabFormContentContainer2);
             this.Controls.Add(this.tabFormControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TabFormControl = this.tabFormControl1;
-            this.Text = "SWAdmin";
+            this.Text = "SWAdmin GreenDam DebugBranch KrClient";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.tabFormControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabFormDefaultManager1)).EndInit();
-            this.tabFormContentContainer1.ResumeLayout(false);
-            this.tabFormContentContainer1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtClientRes.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtServerRes.Properties)).EndInit();
-            this.tabFormContentContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbRes)).EndInit();
