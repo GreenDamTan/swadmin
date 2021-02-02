@@ -231,7 +231,7 @@ namespace SWAdmin
             _supportedFiles.Add("tb_akashic_make.res", new TBAkashicMakeServer());
             _supportedFiles.Add("tb_akashic_records.res", new TBAkashicRecordsServer());
         }
-        private void InitClientSupportedFiles()
+        private void InitClientKrSupportedFiles()
         {
             _supportedFiles = new Dictionary<string, BaseStruct>();
 
@@ -488,6 +488,9 @@ namespace SWAdmin
             _supportedFiles.Add(ToLow("tb_world_event_reward.res"), new tb_world_event_reward_Client());
 
         }
+        private void InitClientSupportedFiles()
+        {
+        }
         string ToLow(string input) {
            return input.ToString().ToLower();
         }
@@ -603,7 +606,7 @@ namespace SWAdmin
             }
             else if (workerType == WorkerTypeEnum.LOAD_CLIENT_RES)
             {
-                this.InitClientSupportedFiles();
+                this.InitClientKrSupportedFiles();
             }
             if (string.IsNullOrEmpty(resPath))
             {
