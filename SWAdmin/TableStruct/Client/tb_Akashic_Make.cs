@@ -29,20 +29,19 @@ namespace SWAdmin.TableStruct
 
         public class tb_Akashic_Make : BaseStruct
         {
-            public UInt32 Unkown1;
-            public Byte Unkown2;
-            public UInt32 Unkown3;
-            public UInt32 Unkown4;
-            public Byte Unkown5;
-            public UInt32 Unkown6;
-            public UInt32 Unkown7;
-            public UInt32 Unkown8;
-            public UInt32 Unkown9;
-            public UInt32 Unkown10;
-            public UInt32 Unkown11;
-            public UInt32 Unkown12;
-            public UInt32 Unkown13;
-
+            public UInt32 Akashic_Make_Index;
+            public Byte Unknown1;
+            public UInt32 Unknown2;
+            public UInt32 Unknown3;
+            public Byte Unknown4;
+            public UInt32 Unknown5;
+            public UInt32 Create_Akashic;
+            public UInt32 Random_Need_Meterial;
+            public UInt32 Random_Need_Gold;
+            public UInt32 Akashic_Group;
+            public UInt32 HiUInt32en_Need_Gold;
+            public UInt32 HiUInt32en_Need_Item;
+            public UInt32 Create_HiUInt32en;
 
             public override void beforeRead()
             {

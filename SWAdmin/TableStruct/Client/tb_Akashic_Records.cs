@@ -29,47 +29,47 @@ namespace SWAdmin.TableStruct
 
         public class tb_Akashic_Records : BaseStruct
         {
-            public UInt32 Unkown1;
-            public UInt32 Unkown2;
-            public UInt32 Unkown3;
-            public UInt32 Unkown4;
-            public UInt32 Unkown5;
-            public Byte Unkown6;
-            public UInt16 Unkown7;
-            public Byte Unkown8;
-            public Byte Unkown9;
-            public Byte Unkown10;
-            public Byte Unkown11;
-            public Byte Unkown12;
-            public String Unkown13 = "";
-            public String Unkown14 = "";
-            public String Unkown15 = "";
-            public UInt16 Unkown16;
-            public UInt16 Unkown17;
-            public UInt16 Unkown18;
-            public String Unkown19 = "";
-            public UInt16 Unkown20;
-            public Byte Unkown21;
-            public UInt32 Unkown22;
-            public Byte Unkown23;
-            public UInt16 Unkown24;
-            public UInt32 Unkown25;
-            public UInt32 Unkown26;
-            public UInt32 Unkown27;
-            public Byte Unkown28;
-            public UInt16 Unkown29;
-            public Byte Unkown30;
-            public UInt32 Unkown31;
-            public UInt32 Unkown32;
-            public UInt32 Unkown33;
-            public UInt32 Unkown34;
-            public UInt32 Unkown35;
-            public Byte Unkown36;
-            public UInt32 Unkown37;
-            public UInt32 Unkown38;
-            public UInt32 Unkown39;
-            public UInt32 Unkown40;
-
+            public UInt32 ID;
+            public UInt32 Unknown1;
+            public UInt32 Akashic_Group;
+            public UInt32 Unknown2;
+            public UInt32 Unknown3;
+            public Byte Unknown4;
+            public UInt16 Array_Index;
+            public Byte Type;
+            public Byte Cash_Type;
+            public Byte Rank;
+            public Byte Rare_Point;
+            public Byte HiUInt32en_Type;
+            public String Unknown5 = "";
+            public String Unknown6 = "";
+            public String Unknown7 = "";
+            public UInt16 Action_Group;
+            public UInt16 Unknown8;
+            public UInt16 Unknown9;
+            // public UInt16 Unknown10;
+            public String Unknown10 = "";
+            public UInt16 Unknown11;
+            public Byte Unknown12;
+            public UInt32 Use_Skill_ID;
+            public Byte Invoke_Condition;
+            public UInt16 Invoke_Rate;
+            public UInt32 Skill_ID;
+            public UInt32 CoolTime;
+            public UInt32 CoolTime_Group;
+            public Byte CoolTime_Save;
+            public UInt16 CoolTime_Global;
+            public Byte Akashic_Limit_Type;
+            public UInt32 Akashic_Disassemble;
+            public UInt32 EXP_AUInt32;
+            public UInt32 Akashic_Combination_Point;
+            public UInt32 Gold_AUInt32;
+            public UInt32 Make_Need_Exp;
+            public Byte Level_Max;
+            public UInt32 Lease_Period;
+            public UInt32 Lease_Cooltime;
+            public UInt32 Gold_Need;
+            public UInt32 Gold_Send;
 
             public override void beforeRead()
             {
